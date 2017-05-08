@@ -1,0 +1,6 @@
+
+./configure 
+ninja  # output in ~/build/
+
+# run
+ninja run
