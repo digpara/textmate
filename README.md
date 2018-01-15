@@ -14,7 +14,7 @@ Before you submit a bug report please read the [writing bug reports](http://kb.t
 
 ## Screenshot
 
-![textmate](https://raw.github.com/textmate/textmate/gh-pages/images/screenshot.png)
+![textmate](https://raw.github.com/nebulabox/textmate/gh-pages/images/screenshot.png)
 
 # Building
 
@@ -31,7 +31,7 @@ To bootstrap the build you need to run `./configure` (in the root of the source 
 In the simplest case (assuming [Homebrew][] is installed) you would run:
 
 	brew install ragel boost multimarkdown hg ninja capnp google-sparsehash libressl
-	git clone --recursive https://github.com/textmate/textmate.git
+	git clone --recursive https://github.com/nebulabox/textmate.git
 	cd textmate
 	./configure && ninja
 
